@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/heroo.avif") top center;
+  background: url("../img/hero.avif") top center;
   background-size: cover;
   padding: 0 15px;
  
@@ -307,7 +307,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .btn-get-started:hover {
   padding-top: 10px;
-  color: #d43076;
+  color: #ebc623;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -334,7 +334,7 @@ section {
 }
 
 .section-bg {
-  background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+  background: linear-gradient(180deg, #6aebd5 0%, rgb(172, 223, 33) 100%);
 }
 
 .section-title {
@@ -354,7 +354,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #d43076;
+  background: hsl(36, 66%, 51%);
   bottom: 0;
   left: 0;
 }
@@ -424,7 +424,7 @@ section {
 .about .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #eeafca;
+  color: #d4b112;
   float: left;
   line-height: 0;
 }
@@ -503,7 +503,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #dd5a92;
+  background-color: blue;
 }
 
 /*--------------------------------------------------------------
@@ -520,7 +520,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #d43076;
+  border-left: 2px solid hsl(120, 66%, 51%);
   position: relative;
 }
 .resume .resume-item h4 {
@@ -557,7 +557,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #d43076;
+  border: 2px solid #d4c930;
 }
 
 /*--------------------------------------------------------------
@@ -585,7 +585,7 @@ section {
   z-index: -1;
 }
 .services .icon-box:hover::before {
-  background: #d43076;
+  background: #a8d430;
   height: 100%;
   border-radius: 0px;
 }
@@ -662,7 +662,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #d43076;
+  color: #8dd430;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -672,6 +672,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  height: 100%;
 }
 .portfolio .portfolio-wrap::before {
   content: "";
